@@ -21,3 +21,7 @@ Apex `elcerritorestaurante.com` -> 4 A records:
 ## Real site
 
 The actual website is at https://github.com/alejandro067/elcerrito.
+
+`404.html` duplicates `index.html` on purpose. Without it a deep link such as
+`elcerritorestaurante.com/menu` hits GitHub's own 404 page instead of
+forwarding, so only the bare apex would have worked.
